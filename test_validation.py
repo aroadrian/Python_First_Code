@@ -9,7 +9,7 @@ class User:
     def display_user(self):
         print(f'Username: {self.username}, Email: {self.email}')
 
-user1 = User('Adrian', 'adrian@gmail.com')
+user1 = User('Adrian', 'aroadrian@gmail.com')
 user2 = User('Reslychen', 'reslychen@gmail.com')
 
 print(User.user_count)
