@@ -27,8 +27,8 @@ class Bank_account:
         return 0 <= rate <= 5
         
         
-account =Bank_account("Adrian", 500)
-account.deposit(200)
+account =Bank_account("Adrian", 400)
+account.deposit(300)
 
 print(Bank_account.is_valid_interest_rate(3))
 print(Bank_account.is_valid_interest_rate(10))
