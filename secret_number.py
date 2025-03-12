@@ -7,7 +7,7 @@ def main():
         guess = int(input("Input your guess number 1 to 15: "))
         guess_count += 1
         if guess == secret_num:
-            print("You won!")
+            print("You win!")
             break
     else:
         print("You lose!")
