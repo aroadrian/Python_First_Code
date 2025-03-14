@@ -1,6 +1,6 @@
 user_db = {
     'adrian': 'admin1',
-    'resllychen': 'admin2'
+    'admin': 'admin2'
 }
 
 def login(username, password):
