@@ -1,5 +1,5 @@
 user_db = {
-    'adrian': 'admin1',
+    'amin1': 'admin1',
     'admin2': 'admin2'
 }
 
