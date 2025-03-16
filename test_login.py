@@ -7,7 +7,7 @@ def login(username, password):
     if username in user_db and user_db[username] == password:
         return "Login successful!"
     else:
-        return "Invalid username or password."
+        return "Wrong username or password. Please try again"
 
 def main():
     print("Welcome to the login system")
