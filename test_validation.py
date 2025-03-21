@@ -10,7 +10,7 @@ class User:
         print(f'Username: {self.username}, Email: {self.email}')
 
 user1 = User('User1', 'user1@gmail.com')
-user2 = User('RUser2', 'reslychen@gmail.com')
+user2 = User('RUser2', 'user2@gmail.com')
 
 print(User.user_count)
 print(user1.user_count)
