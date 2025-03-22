@@ -11,7 +11,7 @@ def main():
         person1 = Person('Reslychen', 26)
         person1.greet()
 
-        person2 = Person('Adrian', 25)
+        person2 = Person('Adrian Christopher', 25)
         person2.greet()
 
 if __name__ == "__main__":
