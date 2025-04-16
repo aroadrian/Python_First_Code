@@ -4,7 +4,7 @@ def main():
     guess_limit = 6
     print("Try While Looping")
     while guess_count < guess_limit:
-        guess = int(input("Guess number 1 to 15: "))
+        guess = int(input("Guess number between 1 to 15: "))
         guess_count += 1
         if guess == secret_num:
             print("You win!")
